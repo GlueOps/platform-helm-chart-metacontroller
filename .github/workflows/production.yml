@@ -6,4 +6,7 @@ on:
 
 jobs:
   placeholder:
-    run: echo "this is a test"
+    runs-on: ubuntu-latest
+    steps:
+      name: test action
+      run: echo "this is a test"
