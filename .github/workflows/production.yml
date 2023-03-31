@@ -8,5 +8,5 @@ jobs:
   placeholder:
     runs-on: ubuntu-latest
     steps:
-      name: test action
-      run: echo "this is a test"
+      - name: test action
+        run: echo "this is a test"
