@@ -1,1 +1,0 @@
-# platform-helm-chart-metacontroller

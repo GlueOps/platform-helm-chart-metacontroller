@@ -1,0 +1,14 @@
+name: Publish Production Helm Charts
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  call-workflow-passing-data:
+    uses: GlueOps/github-workflows/.github/workflows/publish-metacontroller-helm-chart.yml@feature/metacontroller-helm-chart-build
+    secrets: inherit
+    with:
+      VERSION_TAG: "v4.10.0"
+      GLUEOPS_ENV: "production"
+      HELM_CHART_REPO_NAME: "platform"
