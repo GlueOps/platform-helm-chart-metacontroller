@@ -1,0 +1,9 @@
+name: Publish Production Helm Charts
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  placeholder:
+    run: echo "this is a test"
