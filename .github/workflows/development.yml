@@ -3,10 +3,9 @@ on: workflow_dispatch
 
 jobs:
   call-workflow-passing-data:
-    uses: GlueOps/github-workflows/.github/workflows/publish-metacontroller-helm-chart.yml@feature/metacontroller-helm-chart-build
+    uses: GlueOps/github-workflows/.github/workflows/publish-metacontroller-helm-chart.yml@v20230403
     secrets: inherit
     with:
       VERSION_TAG: "v4.10.0"
       GLUEOPS_ENV: "development"
       HELM_CHART_REPO_NAME: "platform"
-      
