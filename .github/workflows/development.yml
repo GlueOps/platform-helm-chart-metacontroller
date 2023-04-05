@@ -3,7 +3,7 @@ on: workflow_dispatch
 
 jobs:
   call-workflow-passing-data:
-    uses: GlueOps/github-workflows/.github/workflows/publish-metacontroller-helm-chart.yml
+    uses: GlueOps/github-workflows/.github/workflows/publish-metacontroller-helm-chart.yml@main
     secrets: inherit
     with:
       VERSION_TAG: "v4.10.0"
