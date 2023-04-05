@@ -5,8 +5,10 @@ on:
       - '*'
 
 jobs:
-  placeholder:
-    runs-on: ubuntu-latest
-    steps:
-      - name: test action
-        run: echo "this is a test"
+  call-workflow-passing-data:
+    uses: GlueOps/github-workflows/.github/workflows/publish-metacontroller-helm-chart.yml
+    secrets: inherit
+    with:
+      VERSION_TAG: "v4.10.0"
+      GLUEOPS_ENV: "production"
+      HELM_CHART_REPO_NAME: "platform"
