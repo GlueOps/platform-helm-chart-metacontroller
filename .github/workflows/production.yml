@@ -9,6 +9,6 @@ jobs:
     uses: GlueOps/github-workflows/.github/workflows/publish-metacontroller-helm-chart.yml@main
     secrets: inherit
     with:
-      VERSION_TAG: "v4.11.2"
+      VERSION_TAG: "v4.11.3"
       GLUEOPS_ENV: "production"
       HELM_CHART_REPO_NAME: "platform"
