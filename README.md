@@ -1,6 +1,6 @@
 # metacontroller-helm
 
-![Version: v4.11.7](https://img.shields.io/badge/Version-v4.11.7-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: v4.11.7](https://img.shields.io/badge/AppVersion-v4.11.7-informational?style=flat-square)
+![Version: 4.11.8](https://img.shields.io/badge/Version-4.11.8-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: v4.11.8](https://img.shields.io/badge/AppVersion-v4.11.8-informational?style=flat-square)
 
 Writing kubernetes controllers can be simple
 
